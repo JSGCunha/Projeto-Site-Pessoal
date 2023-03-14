@@ -1,0 +1,38 @@
+
+@import 
+url('https://fonts.googleapis.com/css2?family=Sono:wght@300&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*/ #DA9C69,#7A94A5,#4D2F09,#4D443F,#2A1301,#DA9C69,#7A94A5;/*/
+
+body{
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: #21461a;
+    color: #f5f5dc;
+}
+
+.apresentacao{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.apresentacao_conteudo_titulo{
+    font-size: 32px;
+    font-family: 'Sono', sans-serif;
+}
+
+.apresetacao_conteudo_texto{
+    font-size: 24px;
+    font-family: 'Sono', sans-serif;
+    width: 300;
+
+}
